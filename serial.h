@@ -1,3 +1,19 @@
+/*
+ * @Author: alg0rhythm6 hahahahhh6@outlook.com
+ * @Date: 2026-03-13 01:05:48
+ * @LastEditors: alg0rhythm6 hahahahhh6@outlook.com
+ * @LastEditTime: 2026-03-13 16:55:50
+ * @FilePath: \uart\serial.h
+ * @Description: Declaration of the myserial::Serial class.
+ *               A lightweight, dependency-free Linux serial port library built on
+ *               POSIX termios. Exposes enums for baud rate, data bits, stop bits,
+ *               parity and flow control; synchronous read/write with timeout;
+ *               and an asynchronous background read thread driven by callbacks.
+ * 
+ * Copyright (c) 2026 by alg0rhythm6, All Rights Reserved. 
+ */
+
+
 #pragma once
 
 #include <string>
