@@ -2,6 +2,8 @@
 
 A lightweight, dependency-free Linux serial port library built on top of POSIX `termios`. Supports synchronous read/write, timeout control, and a background read thread.
 
+**Project website:** [https://alg0rhythm6.github.io/uart_cpp/](https://alg0rhythm6.github.io/uart_cpp/)
+
 ---
 
 ## Features
@@ -66,6 +68,8 @@ myserial::Serial ser("/dev/ttyUSB0", cfg);
 ---
 
 ## API Reference
+
+For the complete generated API documentation, visit the [project website](https://alg0rhythm6.github.io/uart_cpp/).
 
 ### Connection Control
 
