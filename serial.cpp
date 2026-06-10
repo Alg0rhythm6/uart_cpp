@@ -1,16 +1,12 @@
-/*
- * @Author: alg0rhythm6 hahahahhh6@outlook.com
- * @Date: 2026-03-13 01:05:48
- * @LastEditors: alg0rhythm6 hahahahhh6@outlook.com
- * @LastEditTime: 2026-03-13 16:55:50
- * @FilePath: \uart\serial.cpp
- * @Description: Implementation of the myserial::Serial class.
- *               Provides POSIX termios-based serial port communication for Linux,
- *               including synchronous read/write, configurable baud rate / data bits /
- *               stop bits / parity / flow control, timeout via select(), and a
- *               background read thread with self-pipe graceful shutdown.
- * 
- * Copyright (c) 2026 by alg0rhythm6, All Rights Reserved. 
+/**
+ * @file serial.cpp
+ * @brief Implements a POSIX termios-based Linux serial port class.
+ * @author alg0rhythm6
+ * @date 2026-03-13
+ *
+ * This file implements synchronous I/O, runtime serial port configuration,
+ * select()-based read timeouts, and a background read thread that uses a
+ * self-pipe for safe shutdown.
  */
 
 #include "serial.h"
